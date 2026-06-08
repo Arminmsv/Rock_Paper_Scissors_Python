@@ -18,6 +18,3 @@ The computer randomly selects its choice and the result is shown based on the ga
 
 ```bash
 python Rock_Paper_Scissors.py
-
-## Author
-- Armin.msv
