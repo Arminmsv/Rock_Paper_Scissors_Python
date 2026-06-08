@@ -4,7 +4,7 @@ choices = ["Rock" , "Paper" , "Scissor"]
 win = ""
 while True :
     computer = random.choice(choices)
-    user = input("Rock , Paper , Scissor: ").capitalize()
+    user = input("Rock , Paper , Scissor: ").strip().capitalize()
 
     if user == "Exit":
         break
