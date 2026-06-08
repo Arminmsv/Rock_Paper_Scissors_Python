@@ -20,4 +20,4 @@ The computer randomly selects its choice and the result is shown based on the ga
 python Rock_Paper_Scissors.py
 
 ## Author
-Armin.msv
+- Armin.msv
