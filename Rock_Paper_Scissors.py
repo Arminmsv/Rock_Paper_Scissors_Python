@@ -6,6 +6,7 @@ wins = 0
 losses = 0
 draws = 0
 points = 0
+name = input("What's your name: ")
 while True :
     computer = random.choice(choices)
     user = input("Rock , Paper , Scissor: ").strip().capitalize()
@@ -15,7 +16,8 @@ while True :
         print("Wins:", wins)
         print("Losses:", losses)
         print("Draws:", draws)
-        print("Points:", points)
+        print(f"{name}, you got {points} points in total!")
+        print(f"Thanks {name} for playing my game!")
         break
 
     if user not in choices:
